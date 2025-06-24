@@ -1,10 +1,10 @@
-import ListaAlunos from "../components/ListaAlunos";
+import ListaProdutos from "../components/ListaProdutos";
 
 export default function Home() {
   return (
     <div style={{ padding: 20 }}>
-      <h2>Lista de Alunos</h2>
-      <ListaAlunos />
+      <h2>Lista de Produtos</h2>
+      <ListaProdutos />
     </div>
   );
 }

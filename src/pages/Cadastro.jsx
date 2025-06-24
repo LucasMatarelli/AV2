@@ -1,4 +1,4 @@
-import FormAluno from "../components/FormAluno";
+import FormProduto from "../components/FormProduto";
 import { useNavigate } from "react-router-dom";
 
 export default function Cadastro() {
@@ -6,8 +6,8 @@ export default function Cadastro() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>Cadastrar Aluno</h2>
-      <FormAluno onAlunoCadastrado={() => navigate('/')} />
+      <h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>Cadastrar Produto</h2>
+      <FormProduto onProdutoCadastrado={() => navigate('/')} />
     </div>
   );
 }

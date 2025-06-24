@@ -20,13 +20,13 @@ export default function App() {
       <Box
         sx={{
           bgcolor: '#f5f5f5',
-          width: '100vw',     // largura total da viewport
-          height: '100vh',    // altura total da viewport
-          pt: 4,              // padding top para não ficar colado na AppBar
+          width: '100vw',     
+          height: '100vh',    
+          pt: 4,              
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center',  // centraliza vertical e horizontalmente
-          boxSizing: 'border-box', // para padding funcionar bem
+          alignItems: 'center',  
+          boxSizing: 'border-box', 
         }}
       >
         <Container maxWidth="lg" sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
@@ -41,11 +41,11 @@ export default function App() {
               flexDirection: 'column',
               alignItems: 'center',
               boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
-              overflowY: 'auto', // scroll interno se passar da altura
+              overflowY: 'auto', 
             }}
           >
             <Typography variant="h4" component="h1" gutterBottom sx={{ fontWeight: 'bold' }}>
-              Sistema de Cadastro de Alunos
+              Sistema de Cadastro de Produtos
             </Typography>
 
             <Box sx={{ width: '100%', mt: 2, flexGrow: 1 }}>
