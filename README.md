@@ -27,6 +27,7 @@ Este projeto é um sistema web para cadastro de produtos, desenvolvido com **Rea
 ## 🚀 Como Rodar Localmente
 
 ```bash
+
 # Clone o repositório
 git clone https://github.com/LucasMatarelli/AV2.git
 
@@ -38,6 +39,25 @@ npm install
 
 # Execute o projeto
 npm run dev
+Acesse no navegador:
+👉 http://localhost:5173
 
-# Autor
+🌐 API Utilizada
+Documentação da API: http://leoproti.com.br:8004/swagger-ui/index.html
+
+Endpoint de produtos: http://leoproti.com.br:8004/produtos-view
+
+📦 Deploy no Vercel
+O projeto está disponível online nos seguintes links:
+
+Link principal: https://av-2-ten.vercel.app/
+
+Links alternativos de preview:
+
+https://av-2-lucas-projects-d5deb114.vercel.app/
+
+https://av-2-git-main-lucas-projects-d5deb114.vercel.app/
+
+👨‍💻 Autor
 Lucas Soares Matarelli
+📘 Acadêmico de Análise e Desenvolvimento de Sistemas
